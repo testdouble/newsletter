@@ -5,6 +5,7 @@
   "description": "A newsletter",
   "dependencies": {
     "email-templates": "^3.3.2",
+    "mkdirp": "^0.5.1",
     "pug": "^2.0.0-rc.4"
   }
 }
