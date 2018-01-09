@@ -1,0 +1,10 @@
+{
+  "name": "newsletter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A newsletter",
+  "dependencies": {
+    "email-templates": "^3.3.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
