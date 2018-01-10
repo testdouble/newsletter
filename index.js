@@ -6,7 +6,7 @@ const mailchimpify = require('mailchimpify')
 
 const newsletter = require('./newsletter')
 const assets = require('./assets')
-const css = fs.readFileSync('./email.css').toString()
+const css = fs.readFileSync('./newsletter.css').toString()
 
 const html = mailchimpify(reactHtmlEmail.renderEmail(newsletter({css, assets})))
 fs.writeFileSync('newsletter.html', html)
