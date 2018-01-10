@@ -1,14 +1,13 @@
 require('babel-core/register')
-const React = require('react')
-const reactHtmlEmail = require('react-html-email')
-const path = require('path')
 const fs = require('fs')
+const reactHtmlEmail = require('react-html-email')
 const previewEmail = require('preview-email')
+const mailchimpify = require('mailchimpify')
 
 const newsletter = require('./newsletter')
 const assets = require('./assets')
 const css = fs.readFileSync('./email.css').toString()
 
-const html = reactHtmlEmail.renderEmail(newsletter({css, assets}))
+const html = mailchimpify(reactHtmlEmail.renderEmail(newsletter({css, assets})))
 fs.writeFileSync('newsletter.html', html)
 previewEmail({html})
