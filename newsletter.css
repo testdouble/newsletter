@@ -1,1 +1,3 @@
-body { background-color: red }
+.header img {
+  width: auto !important;
+}
