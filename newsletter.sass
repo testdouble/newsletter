@@ -1,4 +1,8 @@
+$gray: #666
+
 body
+  background-color: white
+  color: #1a1a1a
   font-family: Source Sans Pro, system
   font-size: 16px
 
@@ -14,31 +18,65 @@ body
       width: auto !important
 
   .title
-    padding-top: 48px
+    padding-top: 64px
 
     h3
       margin: 0
       padding: 0
-      font-size: 1rem
+      font-size: .8rem
       text-align: center
       text-decoration: line-through
       text-decoration-color: red
-      font-weight: lighter
+      text-transform: uppercase
+      font-weight: light
 
     h1
-      margin: 0 auto
+      margin: 4px auto 0 auto
       width: 90%
       padding: 0
       background-color: black
       color: white
       font-size: 2rem
+      font-variant: small-caps
       text-align: center
       font-style: italic
 
     h2
       margin: 0
       padding: 0
+      color: $gray
       font-size: 1.4rem
       text-align: center
       font-weight: lighter
 
+.content
+  padding-top: 48px
+
+  td
+    width: 50%
+
+    &:nth-child(1)
+      padding-right: 4px
+      border-right: 1px dotted $gray
+
+    &:nth-child(2)
+      padding-left: 4px
+
+  .dossier
+    img
+      width: auto !important
+
+.footer
+  .fuse
+    position: relative
+    left: calc(50% - 7px)
+    top: -10px
+    font-size: 1.05rem
+    color: $gray
+    text-align: left
+
+  .sign-off
+    margin: 48px 0 12px 0
+    color: $gray
+    font-size: .7rem
+    text-align: center
