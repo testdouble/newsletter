@@ -12,8 +12,8 @@ module.exports = ({css, assets}) =>
       </A>
     </div>
     <div className="title">
-      <h3 data-mc-edit='classification'>Unclassified//For Official Use Only</h3>
-      <h1 data-mc-edit='title'>Test Double <br className="sm"/> Intelligence Briefing</h1>
+      <h3>Unclassified//For Official Use Only</h3>
+      <h1>Test Double <br className="sm"/> Intelligence Briefing</h1>
       <h2 data-mc-edit='subtitle'>2008.08.31</h2>
     </div>
   </Item>
@@ -35,7 +35,8 @@ module.exports = ({css, assets}) =>
           </div>
         </Col>
         <Col>
-          <div className='item dossier'>
+          {/*
+          <div className='item dossier' data-mc-hideable>
             <div className='tab'>Agent Dossier</div>
             <div className='agent'>
               <Image data-mc-edit='dossier-pic' src='*|DOSSIER_PIC|*'
@@ -54,6 +55,7 @@ spy. His voice is provided by H. Jon Benjamin.
               <A href='URL_GOES_HERE'>Continue &#10513;</A>
             </span>
           </div>
+          */}
 
           <div className='item story' data-mc-repeatable='right-col-story'>
             <h3 data-mc-edit='right-col-story-title'>
@@ -73,10 +75,21 @@ spy. His voice is provided by H. Jon Benjamin.
   </Item>
   <Item>
     <div className="footer">
-    <div className="fuse">&#10042;</div>
-    <div className="sign-off">
-      Copyright &copy; Test Double, LLC. All rights reserved.
-    </div>
+      <div className="fuse">&#10042;</div>
+
+      <div className="sign-off">
+        <p>
+          Not cleared to read these briefings? <A href='*|UNSUB|*'>Unsubscribe</A> or <A href='*|UPDATE_PROFILE|*'>update your settings</A>.
+        </p>
+        <p>
+          Copyright &copy; *|CURRENT_YEAR|* <A href='https://testdouble.com'>*|LIST:COMPANY|*</A>. All rights reserved.
+          <br/>
+          Send us 🐌 mail at: *|LIST:ADDRESS|*
+        </p>
+        <p>
+          *|REWARDS|*
+        </p>
+      </div>
     </div>
   </Item>
 </Email>
