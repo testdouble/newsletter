@@ -13,7 +13,7 @@ module.exports = ({css, assets}) =>
     </div>
     <div className="title">
       <h3 data-mc-edit='classification'>Unclassified//For Official Use Only</h3>
-      <h1 data-mc-edit='title'>Test Double Intelligence Briefing</h1>
+      <h1 data-mc-edit='title'>Test Double <br className="sm"/> Intelligence Briefing</h1>
       <h2 data-mc-edit='subtitle'>2008.08.31</h2>
     </div>
   </Item>
