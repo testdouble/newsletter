@@ -8,7 +8,7 @@ module.exports = ({css, assets}) =>
     <div className="strip"></div>
     <div className="logo">
       <A href='https://testdouble.com'>
-        <Image data-mc-edit='logo' src={assets.logo} width={52} height={46} />
+        <Image data-mc-edit='logo' src={assets.logo} width='na' height='na' />
       </A>
     </div>
     <div className="title">
@@ -39,7 +39,7 @@ module.exports = ({css, assets}) =>
             <div className='tab'>Agent Dossier</div>
             <div className='agent'>
               <Image data-mc-edit='dossier-pic' src='*|DOSSIER_PIC|*'
-                width={52} height={80} />
+                width='na' height='na' />
               <div className='name'>
                 <h1 data-mc-edit='dossier-name'>Sterling Archer</h1>
                 <h2 data-mc-edit='dossier-00'>000</h2>
