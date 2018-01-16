@@ -32,6 +32,7 @@ module.exports = ({css, assets}) =>
             <span className='link' data-mc-edit='left-col-story-link'>
               <A href='https://URL_GOES_HERE'>Read &#10513;</A>
             </span>
+            <hr className="divider" noshade/>
           </div>
         </Col>
         <Col>
@@ -68,6 +69,7 @@ spy. His voice is provided by H. Jon Benjamin.
             <span className='link' data-mc-edit='right-col-story-link'>
               <A href='URL_GOES_HERE'>Read &#10513;</A>
             </span>
+            <hr className="divider" noshade/>
           </div>
         </Col>
       </Row>
