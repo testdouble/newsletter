@@ -8,7 +8,7 @@ module.exports = ({css, assets}) =>
     <div className="strip"></div>
     <div className="logo">
       <A href='https://testdouble.com'>
-        <Image data-mc-edit='logo' src={assets.logo} width='na' height='na' />
+        <Image data-mc-edit='logo' src={assets.logo} width={52} height={50} />
       </A>
     </div>
     <div className="title">
