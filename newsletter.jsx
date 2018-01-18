@@ -49,6 +49,28 @@ module.exports = ({css, assets}) =>
             </span>
             <hr className="divider" noshade/>
           </div>
+          <div className='item ad' data-mc-hideable>
+            <h3 data-mc-edit='ad-title'>
+              Are you the next Double Agent?
+            </h3>
+            <p data-mc-edit='ad-body'>
+              Our agents serve as remote members of client teams,
+              writing thoughtful software and seeking ways to help others
+              improve. Want to share your expertise in an environment that
+              supports your own growth? <A href='https://testdouble.com/join'>
+              Join us</A>!
+              <br/>
+              <br/>
+              (And if you like your current job, but think it could use some
+              outside help, please <A href='https://testdouble.com/contact'>let
+              us know</A>!)
+            </p>
+            <span className='link' data-mc-edit='ad-link'>
+              <A href='https://testdouble.com/join'>Enlist &#10513;</A>
+            </span>
+            <hr className="divider" noshade/>
+          </div>
+
         </Col>
       </Row>
     </Box>
