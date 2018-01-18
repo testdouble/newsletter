@@ -113,13 +113,13 @@ del
           text-decoration: underline !important
 
     hr
+      width: 3rem
+      border: 1px dotted #aaa
       display: none
 
     &:not(:last-child)
       hr
         display: inherit
-        width: 3rem
-        border: 1px dotted #aaa
 
   .ad
     background-color: lighten($gray, 55%)
@@ -158,6 +158,11 @@ del
 
         &:nth-child(1)
           border-right: none !important
+
+        &.left-col:not(:last-child)
+          hr
+            display: inherit
+
 
     .fuse
       display: none

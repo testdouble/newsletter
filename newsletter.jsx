@@ -20,7 +20,7 @@ module.exports = ({css, assets}) =>
   <Item className='content'>
     <Box>
       <Row>
-        <Col>
+        <Col className='left-col'>
           <div className='item story' data-mc-repeatable='left-col-story'>
             <h3 data-mc-edit='left-col-story-title'>
               I'm a fat small header
@@ -35,7 +35,7 @@ module.exports = ({css, assets}) =>
             <hr className="divider" noshade/>
           </div>
         </Col>
-        <Col className="right-col">
+        <Col className='right-col'>
           <div className='item story' data-mc-repeatable='right-col-story'>
             <h3 data-mc-edit='right-col-story-title'>
               I'm a fat small header
