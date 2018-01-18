@@ -35,7 +35,7 @@ module.exports = ({css, assets}) =>
             <hr className="divider" noshade/>
           </div>
         </Col>
-        <Col>
+        <Col className="right-col">
           {/*
           <div className='item dossier' data-mc-hideable>
             <div className='tab'>Agent Dossier</div>
