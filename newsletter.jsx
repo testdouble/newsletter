@@ -86,7 +86,7 @@ spy. His voice is provided by H. Jon Benjamin.
         <p>
           Copyright &copy; *|CURRENT_YEAR|* <A href='https://testdouble.com'>*|LIST:COMPANY|*</A>. All rights reserved.
           <br/>
-          Send us 🐌 mail at: *|LIST:ADDRESS|*
+          Send us mail at: *|LIST:ADDRESS|*
         </p>
         <p>
           *|REWARDS|*
