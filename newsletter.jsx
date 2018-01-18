@@ -36,28 +36,6 @@ module.exports = ({css, assets}) =>
           </div>
         </Col>
         <Col className="right-col">
-          {/*
-          <div className='item dossier' data-mc-hideable>
-            <div className='tab'>Agent Dossier</div>
-            <div className='agent'>
-              <Image data-mc-edit='dossier-pic' src='*|DOSSIER_PIC|*'
-                width='na' height='na' />
-              <div className='name'>
-                <h1 data-mc-edit='dossier-name'>Sterling Archer</h1>
-                <h2 data-mc-edit='dossier-00'>000</h2>
-              </div>
-            </div>
-            <p class='bio' data-mc-edit='dossier-bio'>
-              Sterling Malory Archer, known primarily as Archer, is the main
-protagonist of the eponymous show. He is considered to be the world's deadliest
-spy. His voice is provided by H. Jon Benjamin.
-            </p>
-            <span className='link' data-mc-edit='dossier-link'>
-              <A href='URL_GOES_HERE'>Continue &#10513;</A>
-            </span>
-          </div>
-          */}
-
           <div className='item story' data-mc-repeatable='right-col-story'>
             <h3 data-mc-edit='right-col-story-title'>
               I'm a fat small header
