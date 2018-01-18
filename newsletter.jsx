@@ -12,7 +12,7 @@ module.exports = ({css, assets}) =>
       </A>
     </div>
     <div className="title">
-      <h3>Unclassified//For Official Use Only</h3>
+      <del><h3>Unclassified//For Official Use Only</h3></del>
       <h1>Test Double <br className="sm"/> Intelligence Briefing</h1>
       <h2 data-mc-edit='subtitle'>2008.08.31</h2>
     </div>
