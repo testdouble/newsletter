@@ -11,7 +11,7 @@
     "babel-core": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "mailchimpify": "^0.2.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "postcss": "^6.0.16",
     "preview-email": "0.0.6",
     "react": "^16.2.0",
